@@ -35,8 +35,8 @@
   content: '';
   position: absolute;
   inset: -100px;
-  background: radial-gradient(180px at left 150px top 120px, $color-light-purple 98%, #0000),
-    radial-gradient(180px at right 150px bottom 120px, $color-light-blue 98%, #0000);
+  background: radial-gradient(180px at left 150px top 120px, $color-effect-primary 98%, #0000),
+    radial-gradient(180px at right 150px bottom 120px, $color-effect-secondary 98%, #0000);
   filter: blur(80px);
   opacity: 0.5;
   transition:

@@ -5,8 +5,8 @@
 }
 
 a {
-  font-size: larger;
-  font-family: 'geo';
+  font-size: large;
+  font-family: 'Primary';
 }
 
 .nav-link:focus {
@@ -14,7 +14,7 @@ a {
 }
 
 .nav-link:hover {
-  color: $color-purple !important;
+  color: $color-primary !important;
   cursor: pointer;
 }
 
@@ -24,7 +24,7 @@ a {
   left: +4%;
   right: -4%;
   z-index: -1;
-  border-bottom: 2px solid $color-purple;
+  border-bottom: 2px solid $color-primary;
   border-radius: 5px;
   transform: scale(0) translateY(50px);
   transition: transform 0.25s ease;

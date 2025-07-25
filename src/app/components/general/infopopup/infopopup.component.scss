@@ -14,7 +14,7 @@
 
 .project-info-border {
   position: relative;
-  background: linear-gradient(to right, $color-dark-purple, $color-light-purple);
+  background: linear-gradient(to right, $color-primary-dark, $color-primary-light);
   border-radius: 3px 0 0 3px;
   padding: 3px;
 }
@@ -23,7 +23,7 @@
   min-height: 8.5vh;
   min-width: 50px;
   width: 8vh;
-  background: linear-gradient(to right, $color-light-purple, $color-dark-purple);
+  background: linear-gradient(to right, $color-primary-light, $color-primary-dark);
   border-radius: 20px 0 0 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 700;
@@ -38,7 +38,7 @@
 
 @media only screen and (hover: hover) and (pointer: fine) {
   .info-icon:hover {
-    background-color: $color-dark-purple;
+    background-color: $color-primary-dark;
     transition: all 0.5s;
   }
 }
